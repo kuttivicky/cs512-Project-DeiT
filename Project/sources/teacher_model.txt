@@ -1,0 +1,2 @@
+We used ResNet-50 model from torchvision.models: 
+https://pytorch.org/vision/stable/models.html

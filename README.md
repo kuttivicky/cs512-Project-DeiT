@@ -20,11 +20,6 @@ Ensure you have Python 3.8+ installed. Install dependencies using:
 pip install torch torchvision timm transformers numpy matplotlib
 ```
 
-### Clone the Repository
-```bash
-git clone https://github.com/sab00756/DeiT-Implementation.git
-cd DeiT-Implementation
-```
 
 ## Training the Model
 ### Default Training
@@ -60,8 +55,9 @@ python evaluate.py --model deit --dataset cifar10
 - Improve interpretability with attention visualizations.
 
 ## Authors
-- **Aravind Balaji Srinivasan**  
 - **Vignesh Ram Ramesh Kutti**
+- **Aravind Balaji Srinivasan**  
+
 
 ## References
 1. Touvron, H., et al. (2020). "Training data-efficient image transformers & distillation through attention." [arXiv](https://doi.org/10.48550/arxiv.2012.12877)
